@@ -1,13 +1,13 @@
+/* global fetch */
 import React from 'react';
 import { Router, Link } from '@reach/router';
 import FontAwesome from 'react-fontawesome';
-import fetch from 'node-fetch';
 import Layout from '../components/layout';
 
 import Hero from '../components/hero';
 import Project from '../components/project';
 
-const projectsUri = '/.netlify/functions/projects';
+const projectsUri = '/projects.json';
 
 const ProjectCard = ({ project }) => {
   const url = project.thumbnail

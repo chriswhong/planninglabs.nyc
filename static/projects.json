@@ -1,0 +1,473 @@
+[
+    {
+        "name": "Applicant Maps",
+        "thumbnail": [
+            {
+                "id": "attjNPPgIcV5ujwWZ",
+                "width": 1196,
+                "height": 776,
+                "url": "/img/projects/applicant-maps.png",
+                "filename": "applicant-maps.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/applicant-maps.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/applicant-maps.png",
+                        "width": 1196,
+                        "height": 776
+                    },
+                    "full": {
+                        "url": "/img/projects/applicant-maps.png",
+                        "width": 1196,
+                        "height": 776
+                    }
+                }
+            }
+        ],
+        "description": "Most development in New York City is as-of-right, meaning that it complies with the Zoning Resolution and the developer may apply directly to the Department of Buildings for a building permit. However, property owners may seek special approvals to modify zoning requirements by applying to the City Planning Commission (CPC).\n\nThese applications consist of written and graphic materials—including maps—that propose land use approvals and development facilitated by those approvals. They are reviewed for completeness by the Department of City Planning before being presented to the CPC.\n\nApplicant Maps makes the production of required maps less time consuming to prepare and eliminates the need for costly drafting or GIS software. Applicant Maps currently produces Area Maps, which are the most difficult map to make. Other maps are coming soon.",
+        "tagline": "Produce maps required for applications to the City Planning Commission for land use approvals",
+        "url": "https://applicantmaps.planning.nyc.gov/",
+        "github": "https://github.com/NYCPlanning/labs-applicantmaps",
+        "type": "feature",
+        "customer": "Technical Review/Land Use Review",
+        "slug": "applicant-maps"
+    },
+    {
+        "name": "Waterfront Access Map",
+        "thumbnail": [
+            {
+                "id": "attonWAIjoqqLSqIi",
+                "width": 1200,
+                "height": 630,
+                "url": "/img/projects/waterfront-access-map.png",
+                "filename": "waterfront-access-map.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/waterfront-access-map.png",
+                        "width": 50,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/waterfront-access-map.png",
+                        "width": 1200,
+                        "height": 630
+                    },
+                    "full": {
+                        "url": "/img/projects/waterfront-access-map.png",
+                        "width": 1200,
+                        "height": 630
+                    }
+                }
+            }
+        ],
+        "description": "Since waterfront zoning introduced public access requirements 25 years ago, over 1.25 million square feet of Waterfront Public Access Areas (WPAAs) have been constructed through the City's coordination with private property owners. Additionally, 5.4 million square feet of publicly accessible space has been approved by the City to be constructed.\n\nThis interactive map is designed to help NYC residents and visitors locate and learn more about the diverse mix of publicly-accessible waterfront space available throughout the City. You can also learn where specific amenities are available, locate boating and in-water recreation opportunities, and get more information on how these spaces are created and maintained.\n",
+        "tagline": "An interactive map that lets users explore all types of waterfront access spaces and learn more about zoning policies that incentivize their creation.",
+        "url": "https://waterfrontaccess.planning.nyc.gov",
+        "github": "https://github.com/NYCPlanning/labs-waterfront-access",
+        "type": "feature",
+        "customer": "Waterfront and Open Space Division",
+        "slug": "waterfront-access-map"
+    },
+    {
+        "name": "ZAP Search",
+        "thumbnail": [
+            {
+                "id": "attGgzuZzG5irV77L",
+                "width": 1512,
+                "height": 743,
+                "url": "/img/projects/zap-search.png",
+                "filename": "zap-search.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/zap-search.png",
+                        "width": 66,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/zap-search.png",
+                        "width": 1512,
+                        "height": 743
+                    },
+                    "full": {
+                        "url": "/img/projects/zap-search.png",
+                        "width": 1512,
+                        "height": 743
+                    }
+                }
+            }
+        ],
+        "description": "The Department of City Planning provides a structured application process for land use projects that requires the approval of several local agencies. The Zoning Application Portal's database provides us with extensive information on each of these projects and is kept up to date as applicants continue through the approval process.\n\nZoning Application Search (ZAP Search) allows users to search and filter through every land use project that has been submitted to the Department of City Planning since 1970. Users can select from a list of projects sorted by the most recent milestone date and an interactive map allows users to find projects of interest based on location. Users can filter projects by date, community district, project stage, project applicant, project description, project name, flood zone, and much more. Each project's individual page provides a map of the BBLs associated with the project along with a collection of project information like a project's important milestones and associated zoning actions. Users can also find links to City Planning Commission reports and can access a project's BBLs in ZOLA, BISWeb, and ACRIS.\n\nZAP Search allows planners, city officials, and residents to better understand past land use changes and remain up to date on projects that are currently under review in their neighborhoods.",
+        "tagline": "A tool for quickly finding past and present land use applications",
+        "url": "https://zap.planning.nyc.gov/projects",
+        "github": "https://github.com/NYCPlanning/labs-zap-search",
+        "type": "feature",
+        "customer": "Business Improvement Division",
+        "slug": "zap-search"
+    },
+    {
+        "name": "NYC Street Map",
+        "thumbnail": [
+            {
+                "id": "attgGcs4uJZEIWNVy",
+                "width": 1512,
+                "height": 791,
+                "url": "/img/projects/nyc-street-map.png",
+                "filename": "nyc-street-map.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/nyc-street-map.png",
+                        "width": 56,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/nyc-street-map.png",
+                        "width": 1512,
+                        "height": 791
+                    },
+                    "full": {
+                        "url": "/img/projects/nyc-street-map.png",
+                        "width": 1512,
+                        "height": 791
+                    }
+                }
+            }
+        ],
+        "description": "NYC Street Map is an ongoing effort to digitize official street records, bring them together with other street information, and make them easily accessible to the public. With this app, you can find the official mapped width, name, and status of specific streets and how they may relate to specific properties. You can also see how the street grid has changed over time in your area.",
+        "tagline": "A web map showing the official City Map of New York City, with associated amendments and layers",
+        "url": "https://streets.planning.nyc.gov/about",
+        "github": "https://github.com/NYCPlanning/labs-citymap",
+        "type": "feature",
+        "customer": "Technical Review Division",
+        "slug": "nyc-street-map"
+    },
+    {
+        "name": "Metro Region Explorer",
+        "thumbnail": [
+            {
+                "id": "attjvqq2UO0U2YUjd",
+                "width": 1512,
+                "height": 840,
+                "url": "/img/projects/metro-region-explorer.png",
+                "filename": "metro-region-explorer.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/metro-region-explorer.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/metro-region-explorer.png",
+                        "width": 1512,
+                        "height": 840
+                    },
+                    "full": {
+                        "url": "/img/projects/metro-region-explorer.png",
+                        "width": 1512,
+                        "height": 840
+                    }
+                }
+            }
+        ],
+        "description": "Metro Region Explorer is interactive mapping experience that highlights regional planning data and trends.  Built with the DCP Regional Planning Team, it will allow the user to explore various regional planning metrics from the 3 states, 31 counties, and over 800 local jurisdictions that comprise the NYC region.\n",
+        "tagline": "An interactive mapping experience that highlights regional planning data and trends",
+        "url": "https://metroexplorer.planning.nyc.gov/",
+        "github": "https://github.com/nycplanning/labs-regional-viz",
+        "type": "feature",
+        "customer": "Regional Planning Division",
+        "slug": "metro-region-explorer"
+    },
+    {
+        "name": "ZoLa",
+        "thumbnail": [
+            {
+                "id": "attrzrryJbqZ43df5",
+                "width": 910,
+                "height": 512,
+                "url": "/img/projects/zola.gif",
+                "filename": "zola.gif",
+                "size": 0,
+                "type": "image/gif",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/zola.gif",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/zola.gif",
+                        "width": 910,
+                        "height": 512
+                    },
+                    "full": {
+                        "url": "/img/projects/zola.gif",
+                        "width": 910,
+                        "height": 512
+                    }
+                }
+            }
+        ],
+        "description": "DCP's ZoLa tool is a web map that allows users to visually inspect zoning boundaries, special zoning districts, and other critical spatial information that impacts land use and zoning throughout the city. It currently allows users to toggle several relevant layers on a map, inspect layers with tooltips, and search for specific locations to get site-specific zoning information\n\nThis project involved a re-thinking of ZoLa from the ground up. User-centered design combined with agile processes and modern geospatial and front-end web technology allowed for the addition of key features that may not have been feasible under the existing site. ",
+        "tagline": "NYC's Zoning and Land Use Application, providing access to land use regulations and property data via an intuitive map interface",
+        "url": "https://zola.planning.nyc.gov",
+        "github": "https://github.com/nycplanning/labs-zola",
+        "type": "feature",
+        "customer": "ZoLa Working Group",
+        "slug": "zola"
+    },
+    {
+        "name": "Population Fact Finder",
+        "thumbnail": [
+            {
+                "id": "attp2bv6KQhF3KaQJ",
+                "width": 910,
+                "height": 512,
+                "url": "/img/projects/population-fact-finder.png",
+                "filename": "population-fact-finder.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/population-fact-finder.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/population-fact-finder.png",
+                        "width": 910,
+                        "height": 512
+                    },
+                    "full": {
+                        "url": "/img/projects/population-fact-finder.png",
+                        "width": 910,
+                        "height": 512
+                    }
+                }
+            }
+        ],
+        "description": "New York City Population FactFinder (NYC PFF) provides detailed population and housing profiles for user defined areas within New York City. Using data from decennial censuses and the American Community Survey, the profiles are comprehensive, covering the most basic population statistics, along with detailed social, economic, and housing information. Data for user-defined areas can be easily contrasted against New York City, City boroughs, City Community Districts (approximate equivalents are used), and City neighborhoods (Neighborhood Tabulation Areas). Along with count statistics (like total Spanish-speaking population), users are provided with percent values (like percent of the population with a bachelor's degree or higher), arithmetic means (like mean travel time to work), rates (like rental housing vacancy rate), and medians (like median household income). NYC PFF profiles can also show how a selected area has changed over time. Further, each profile contains charts allowing users to visualize the distribution of selected statistics, comparing user-defined study areas with a contrast area. All NYC PFF estimates are evaluated for data reliability – unreliable data are grayed out, alerting users of unsuitability for general use. Background reliability statistics can also be further explored.",
+        "tagline": "Select Census Tracts, Census Blocks, Neighborhood Tabulation Areas, or Public Use Microdata Areas to define a study area and produce a detailed population profile",
+        "url": "https://popfactfinder.planning.nyc.gov",
+        "github": "https://github.com/NYCPlanning/labs-nyc-factfinder",
+        "type": "feature",
+        "customer": "Population Division",
+        "slug": "population-fact-finder"
+    },
+    {
+        "name": "NYC Geosearch API",
+        "thumbnail": [
+            {
+                "id": "attKR61kLoeqyxp8L",
+                "width": 1316,
+                "height": 876,
+                "url": "/img/projects/nyc-geosearch-api.png",
+                "filename": "nyc-geosearch-api.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/nyc-geosearch-api.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/nyc-geosearch-api.png",
+                        "width": 1316,
+                        "height": 876
+                    },
+                    "full": {
+                        "url": "/img/projects/nyc-geosearch-api.png",
+                        "width": 1316,
+                        "height": 876
+                    }
+                }
+            }
+        ],
+        "description": "NYC GeoSearch is a service that transforms input text—such as an address, or the name of a place—to authoritative New York City addresses using data from the Property Address Directory.\n\nLearn more and try it out at our interactive documentation site. (Click the url above)",
+        "tagline": "Autocomplete search results API using authoritative NYC address data (PAD) and the Pelias geocoder",
+        "url": "https://geosearch.planninglabs.nyc",
+        "github": "https://github.com/NYCPlanning/labs-geocoder-api",
+        "type": "feature",
+        "customer": "NYC Planning Labs",
+        "slug": "nyc-geosearch-api"
+    },
+    {
+        "name": "Community Profiles",
+        "thumbnail": [
+            {
+                "id": "attGmJk0Yt5t8MxdY",
+                "width": 910,
+                "height": 512,
+                "url": "/img/projects/community-profiles.gif",
+                "filename": "community-profiles.gif",
+                "size": 0,
+                "type": "image/gif",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/community-profiles.gif",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/community-profiles.gif",
+                        "width": 910,
+                        "height": 512
+                    },
+                    "full": {
+                        "url": "/img/projects/community-profiles.gif",
+                        "width": 910,
+                        "height": 512
+                    }
+                }
+            }
+        ],
+        "description": "New York City's 59 community boards were created by local law in 1975, and each represents a community district. These districts range in population from 50,000 to over 200,000, and reflect the City's diversity. \n\nThe Department of City Planning's Community District Profiles organize a wide variety of data, maps, and other content to present an accessible and informative view of the built environment, key socio-economic conditions, community board perspectives, and planning activities in each district. This information empowers residents, community board members, planners, and other stakeholders to engage in city planning and advocate for their communities.",
+        "tagline": "Data Profiles for New York City's 59 Community Districts, providing access to demographics, indicators, flood resiliency, Land Use Applications and more",
+        "url": "https://communityprofiles.planning.nyc.gov",
+        "github": "https://github.com/NYCPlanning/labs-community-portal",
+        "type": "feature",
+        "customer": "Planning Coordination Division",
+        "slug": "community-profiles"
+    },
+    {
+        "name": "Migration Visualization",
+        "thumbnail": [
+            {
+                "id": "attAqlFUijZotM6o5",
+                "width": 908,
+                "height": 612,
+                "url": "/img/projects/migration-visualization.png",
+                "filename": "migration-visualization.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/migration-visualization.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/migration-visualization.png",
+                        "width": 908,
+                        "height": 612
+                    },
+                    "full": {
+                        "url": "/img/projects/migration-visualization.png",
+                        "width": 908,
+                        "height": 612
+                    }
+                }
+            }
+        ],
+        "description": "The dynamism of migration strengthens NYC and has contributed to the City's growth in population to an all-time high of 8,537,673 in 2016. These charts show the number of people who moved to or left NYC during each time period, according to census survey data. \n\nThe visualization was made with the popular dataviz library d3.js, and adds interactivity, showing trend lines for each cohort when the user interacts with the chart.",
+        "tagline": "Explore 5 decades of New York City Immigration by various groupings such as age, marital status, occupation and more",
+        "url": "https://migration.planning.nyc.gov",
+        "github": "https://github.com/NYCPlanning/labs-migration-viz",
+        "type": "feature",
+        "customer": "Population Division",
+        "slug": "migration-visualization"
+    },
+    {
+        "name": "Tax Lot Selector",
+        "thumbnail": [
+            {
+                "id": "attY3nlFNfeqLoeR2",
+                "width": 1512,
+                "height": 743,
+                "url": "/img/projects/tax-lot-selector.png",
+                "filename": "tax-lot-selector.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/tax-lot-selector.png",
+                        "width": 64,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/tax-lot-selector.png",
+                        "width": 1512,
+                        "height": 743
+                    },
+                    "full": {
+                        "url": "/img/projects/tax-lot-selector.png",
+                        "width": 1512,
+                        "height": 743
+                    }
+                }
+            }
+        ],
+        "description": "The Tax Lot Selector is a simple \"clip and ship\" tool for the Department of City Planning's robust MapPLUTO tax lot dataset.  Originally built as a GUI to support internal DCP processes, the app allows the user to select a subset of the city by interacting with the map, and to download the corresponding PLUTO data with ease.",
+        "tagline": "Use this handy map interface to access a custom slice of the MapPLUTO tax lot data",
+        "url": "https://lotselector.planning.nyc.gov",
+        "github": "https://github.com/NYCPlanning/labs-tax-lot-selector",
+        "type": "feature",
+        "customer": "Business Improvement Division",
+        "slug": "tax-lot-selector"
+    },
+    {
+        "name": "Maputnik Dev Server",
+        "tagline": "A simple local server for the Maputnik Map Style Editor that allows us to quickly edit map symbology during project development",
+        "github": "https://github.com/NYCPlanning/labs-maputnik-dev-server",
+        "type": "resource",
+        "slug": "maputnik-dev-server"
+    },
+    {
+        "name": "geojson2mvt",
+        "tagline": "A node package that cuts static vector tile pyramids from geoJSON files",
+        "github": "https://github.com/NYCPlanning/geojson2mvt",
+        "type": "resource",
+        "customer": "Population Division",
+        "slug": "geojson2mvt"
+    },
+    {
+        "name": "CEQR App",
+        "thumbnail": [
+            {
+                "id": "atthYJeoJm9YvUgO6",
+                "width": 1112,
+                "height": 714,
+                "url": "/img/projects/ceqr-app.png",
+                "filename": "ceqr-app.png",
+                "size": 0,
+                "type": "image/png",
+                "thumbnails": {
+                    "small": {
+                        "url": "/img/projects/ceqr-app.png",
+                        "width": 35,
+                        "height": 36
+                    },
+                    "large": {
+                        "url": "/img/projects/ceqr-app.png",
+                        "width": 1112,
+                        "height": 714
+                    },
+                    "full": {
+                        "url": "/img/projects/ceqr-app.png",
+                        "width": 1112,
+                        "height": 714
+                    }
+                }
+            }
+        ],
+        "description": "Offering a 'TurboTax' like experience for environmental review, CEQR App is a tool for environmental consultants and lead city agencies involved in the CEQR process. The tool provides data, maps, and analytic workbooks that streamline the environmental review process, reducing the time and cost of CEQR while increasing quality and accuracy of reviews.",
+        "tagline": "Simplify environmental review by providing data, maps, and analytic workbooks for CEQR analysis",
+        "url": "https://www.ceqr.app",
+        "github": "https://github.com/NYCPlanning/ceqr-app",
+        "type": "feature",
+        "customer": "Environmental Assessment and Review Division & Mayor's Office of Environmental Coordination",
+        "slug": "ceqr-app"
+    }
+]

@@ -212,7 +212,7 @@ const AboutPage = () => (
               </div>
               <div className="media-object-section">
                 <p>
-                  Natasha joined Planning Labs in June 2021. Previously she designed marketing assets across platforms for NYC Department of Finance and NYC Department of Social Services. She is passionate about human-centered design and innovation within City government.  
+                  Natasha joined Planning Labs in June 2021. Previously she designed marketing assets across platforms for NYC Department of Finance and NYC Department of Social Services. She is passionate about human-centered design and innovation within City government.
                 </p>
               </div>
             </div>
@@ -228,14 +228,12 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   src="/img/tyler.jpg"
-                  alt='Tyler Matteo'
+                  alt="Tyler Matteo"
                 />
                 {' '}
               </div>
               <div className="media-object-section">
-                <p>
-
-                </p>
+                <p />
               </div>
             </div>
           </div>
