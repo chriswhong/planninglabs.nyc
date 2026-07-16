@@ -1,72 +1,62 @@
-# NYC Planning Labs Website
+# NYC Planning Labs Website — Archive
 
-[planninglabs.nyc](https://planninglabs.nyc/) built with [Gatsby.js](https://www.gatsbyjs.org/docs/building-with-components/)
+> **This is an archived repository.** NYC Planning Labs was a civic technology team at the NYC Department of City Planning that built open-source web tools for urban planners. The team no longer exists. This repo is a fork of the [original open-source codebase](https://github.com/NYCPlanning/labs-home), updated to use static data in place of the original Netlify functions and Airtable backend, and published on GitHub Pages for posterity. It is **not affiliated with or maintained by New York City government**.
 
+---
 
-![image](https://user-images.githubusercontent.com/409279/34015575-dd993eb6-e0ec-11e7-922e-f545b95819ca.png)
+Original site: [planninglabs.nyc](https://planninglabs.nyc/) — built with [Gatsby.js](https://www.gatsbyjs.org/)
 
+## Changes from the original
 
-## How you can help
-
-In the spirit of free software, everyone is encouraged to help improve this project.  Here are some ways you can contribute.
-
-- Comment on or clarify [issues](link to issues)
-- Report [bugs](link to bugs)
-- Suggest new features
-- Write or edit documentation
-- Write code (no patch is too small):
-  - Fix typos
-  - Add comments
-  - Clean up code
-  - Add new features
-**[Read more about contributing.](CONTRIBUTING.md)**
-
-## Requirements
-
-You will need the following things properly installed on your computer.
-
-* **[Git](https://git-scm.com/)**
-* **[Node.js](https://nodejs.org/)** (with NPM) **version listed in .nvmrc**
-* **[gatsby-cli](https://www.npmjs.com/package/gatsby-cli)** (to run [Gatsby](https://www.gatsbyjs.org/) commands)
-* **[Yarn](https://yarnpkg.com/)**
+- Project data is served from [`static/projects.json`](static/projects.json) instead of a Netlify serverless function backed by Airtable
+- Blog post data is served from a static JSON file instead of a Medium RSS feed
+- Project thumbnail images are stored locally in [`static/img/projects/`](static/img/projects/)
+- Deployed via GitHub Actions to GitHub Pages instead of Netlify
 
 ## Local development
 
-1. Clone this repo  
-   ```sh
-   git clone git@github.com:NYCPlanning/labs-planninglabs-home.git
-   ```
-2. Navigate to the project directory 
-   ```sh
-   cd labs-planninglabs-home
-   ```
-3. Install dependencies
-   ```sh
-   yarn
-   ```
-4. Copy and rename .env-template, and fill in the correct Airtable API KEY (see 1password)
-4. Start your development server
-   ```sh
-   netlify dev
-   ```
-5.  Go to `localhost:8000` in your web browser, make any code changes in the [src directory](src) and watch as your webpage automatically reloads to show your changes.
+Requires Node.js **v14** (see `.nvmrc`). If you use nvm:
 
-_Optional_
-- `gatsby build` — Gatsby will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
-- `gatsby serve` — Gatsby starts a local HTML server for testing your built site.
-- `netlify dev` — 
+```sh
+nvm install
+nvm use
+```
 
-## Backend services
+1. Install dependencies
+   ```sh
+   npm install
+   ```
 
-- **[Airtable](https://airtable.com/)** (used to manage project content)
-- **[Netlify Functions](https://www.netlify.com/products/functions/)** (Hosts private functions to pull data)
+2. Start the development server
+   ```sh
+   npm run develop
+   ```
+
+3. Open `http://localhost:8000` in your browser.
 
 ## Deployment
 
-This project can be deployed on any static web server.
+Pushes to the `develop` branch automatically deploy to GitHub Pages via the [workflow](.github/workflows/deploy.yml).
 
-- Deploy via Dokku using `npm run deploy`
+**Note:** If publishing to a GitHub project page (e.g. `username.github.io/repo-name` rather than a root domain), you must set a `pathPrefix` in [`gatsby-config.js`](gatsby-config.js):
 
-## Contact us
+```js
+module.exports = {
+  pathPrefix: '/your-repo-name',
+  // ...
+}
+```
 
-You can find us on Twitter at [@nycplanninglabs](https://twitter.com/nycplanninglabs), or comment on issues and we'll follow up as soon as we can. If you'd like to send an email, use [labs_dl@planning.nyc.gov](mailto:labs_dl@planning.nyc.gov)
+And build with:
+
+```sh
+gatsby build --prefix-paths
+```
+
+The GitHub Actions workflow builds without a prefix by default, so update it accordingly if needed.
+
+## Requirements
+
+* **[Git](https://git-scm.com/)**
+* **[Node.js v14](https://nodejs.org/)**
+* **[gatsby-cli](https://www.npmjs.com/package/gatsby-cli)**

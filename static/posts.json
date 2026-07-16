@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "title": "We're Hiring! Interaction Designer @ NYC Planning Labs",
+      "link": "https://medium.com/p/ee847b54488e",
+      "created": "2021-04-14T15:32:52Z",
+      "description": "NYC Planning Labs seeks an Interaction Designer to enhance the Department of City Planning's digital offerings by prioritizing user needs and leveraging agile methodologies.",
+      "image": "https://cdn-images-1.medium.com/max/1024/0*e4dYBW5rn2YVZkqM.png"
+    },
+    {
+      "title": "Designing for CEQR App",
+      "link": "https://medium.com/p/8d3e9fccd8c2",
+      "created": "2020-01-16T16:19:28Z",
+      "description": "An Interaction Designer describes creating tools for NYC's Environmental Quality Review process, automating analysis across 19 technical chapters through modern web design practices.",
+      "image": "https://cdn-images-1.medium.com/max/1024/1*RQIaJTDF--4J1DnM8DD1LQ.png"
+    },
+    {
+      "title": "Improving Our Population FactFinder Data Pipeline",
+      "link": "https://medium.com/p/5bd7befa0b51",
+      "created": "2020-01-03T17:27:02Z",
+      "description": "Planning Labs improved data management by automating Census data processing through PostgreSQL Foreign Data Wrappers, eliminating manual steps and enabling faster quality control.",
+      "image": "https://cdn-images-1.medium.com/max/910/0*lO61KJ6QU-MaE4f2.png"
+    },
+    {
+      "title": "Job: Product Manager",
+      "link": "https://medium.com/p/b4bf85e72425",
+      "created": "2019-11-26T17:04:54Z",
+      "description": "NYC Planning Labs recruited a Product Manager to guide cross-functional teams delivering user-centered products using agile methodologies and modern development practices.",
+      "image": "https://cdn-images-1.medium.com/max/1024/0*JUKfqtQuGaiQdAdc.png"
+    },
+    {
+      "title": "UX on the 30th Floor, 8 Months with Planning Labs and NYC's Department of City Planning",
+      "link": "https://medium.com/p/69f3b6a2c9cc",
+      "created": "2019-11-15T22:14:11Z",
+      "description": "A designer reflects on civic tech work at NYC Planning Labs, emphasizing user research, collaborative design, and the rewarding nature of solving public sector challenges.",
+      "image": "https://cdn-images-1.medium.com/max/1024/1*-7ENZduuSbohZblLdNIQzA.jpeg"
+    },
+    {
+      "title": "NYC Planning Labs is hiring a Senior Full-Stack Developer!",
+      "link": "https://medium.com/p/731b0c713dd1",
+      "created": "2019-08-08T17:46:29Z",
+      "description": "Planning Labs sought an experienced full-stack developer to build geospatial applications using modern web frameworks, supporting urban planning innovation within city government.",
+      "image": "https://cdn-images-1.medium.com/max/1024/0*iVKQNmbtzi5ijZYd.png"
+    },
+    {
+      "title": "Retrying Flaky Data Requests",
+      "link": "https://medium.com/p/31241c1136c",
+      "created": "2019-06-28T23:51:50Z",
+      "description": "An engineer describes implementing retry logic for rate-limited API calls in an Ember.js application using the ember-concurrency-retryable addon.",
+      "image": null
+    },
+    {
+      "title": "DevOps and Security on a Small Team",
+      "link": "https://medium.com/p/8709cfc5b0aa",
+      "created": "2019-06-13T16:30:43Z",
+      "description": "A consultant documents improving DevOps and security practices at Planning Labs through prioritization, configuration management with Ansible, and establishing operational procedures.",
+      "image": "https://cdn-images-1.medium.com/max/1024/1*hIn0d2Zidb8ppA9rZdFzIw.png"
+    },
+    {
+      "title": "Applicant Maps, our newest product",
+      "link": "https://medium.com/p/bc354899fb53",
+      "created": "2019-05-22T17:36:42Z",
+      "description": "Planning Labs launched Applicant Maps to enable applicants to self-service produce required zoning maps and reduce staff review time through guided workflows and automated validation.",
+      "image": "https://cdn-images-1.medium.com/max/1024/1*XEs2KQ7ebGycv7Jke0cDww.png"
+    }
+  ]
+}

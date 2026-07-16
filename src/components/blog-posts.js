@@ -1,7 +1,7 @@
+/* global fetch */
 import React from 'react';
 import moment from 'moment';
 import FontAwesome from 'react-fontawesome';
-import fetch from 'node-fetch';
 
 class BlogPosts extends React.Component {
   constructor(props) {
@@ -10,10 +10,10 @@ class BlogPosts extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/.netlify/functions/posts?tag=nyc-planning-labs')
+    fetch('/posts.json')
       .then(response => response.json())
       .then((json) => {
-        const posts = json.items;
+        const posts = json.items.slice(0, 4);
         this.setState({ posts });
       });
   }

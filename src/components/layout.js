@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 
 import Header from './header';
 import Footer from './footer';
+import ArchiveBanner from './archive-banner';
 
 import '../scss/app.scss';
 
@@ -33,6 +34,7 @@ const TemplateWrapper = ({ children }) => (
       />
     </Helmet>
 
+    <ArchiveBanner />
     <Header />
     {children}
     <Footer />
