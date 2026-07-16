@@ -1,17 +1,20 @@
 /* global fetch */
 import React from 'react';
-import { Router, Link } from '@reach/router';
+import { Router } from '@reach/router';
+import { Link, withPrefix } from 'gatsby';
 import FontAwesome from 'react-fontawesome';
 import Layout from '../components/layout';
 
 import Hero from '../components/hero';
 import Project from '../components/project';
 
-const projectsUri = '/projects.json';
+const projectsUri = withPrefix('/projects.json');
+
+const prefixIfLocal = url => (url && url.startsWith('/') ? withPrefix(url) : url);
 
 const ProjectCard = ({ project }) => {
   const url = project.thumbnail
-    ? project.thumbnail[0].thumbnails.large.url
+    ? prefixIfLocal(project.thumbnail[0].thumbnails.large.url)
     : null;
 
   return (
@@ -192,21 +195,16 @@ class ProjectsPage extends React.Component {
       </div>
     );
 
-    const ProjectLayout = () => {
-      const { props } = this;
-      const id = props.location.pathname.split('/')[2];
-      const project = projects.find(({ slug }) => slug === id);
-
+    const ProjectLayout = ({ projectid }) => {
+      const project = projects.find(({ slug }) => slug === projectid);
       return <Project project={project} />;
     };
 
-    const { location } = this.props;
-
     return (
       <Layout>
-        <Router>
-          <ProjectsGrid path="/projects" />
-          <ProjectLayout path="/projects/:projectid" location={location} />
+        <Router basepath={withPrefix('/projects')}>
+          <ProjectsGrid path="/" />
+          <ProjectLayout path="/:projectid" />
         </Router>
       </Layout>
     );

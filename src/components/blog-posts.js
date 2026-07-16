@@ -1,5 +1,6 @@
 /* global fetch */
 import React from 'react';
+import { withPrefix } from 'gatsby';
 import moment from 'moment';
 import FontAwesome from 'react-fontawesome';
 
@@ -10,7 +11,7 @@ class BlogPosts extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/posts.json')
+    fetch(withPrefix('/posts.json'))
       .then(response => response.json())
       .then((json) => {
         const posts = json.items.slice(0, 4);

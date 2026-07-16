@@ -1,4 +1,5 @@
 import React from 'react';
+import { withPrefix } from 'gatsby';
 import Layout from '../components/layout';
 
 import Hero from '../components/hero';
@@ -153,7 +154,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/godfrey.jpg"
+                  src={withPrefix('/img/godfrey.jpg')}
                   alt="Godfrey Yeung"
                 />
                 {' '}
@@ -180,7 +181,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/david.jpg"
+                  src={withPrefix('/img/david.jpg')}
                   alt='David "The Hawk" Hochbaum'
                 />
                 {' '}
@@ -205,7 +206,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/natasha.jpg"
+                  src={withPrefix('/img/natasha.jpg')}
                   alt="Natasha Toal"
                 />
                 {' '}
@@ -227,7 +228,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/tyler.jpg"
+                  src={withPrefix('/img/tyler.jpg')}
                   alt="Tyler Matteo"
                 />
                 {' '}
@@ -265,7 +266,7 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   alt="Chris Whong"
-                  src="/img/chris-whong.jpg"
+                  src={withPrefix('/img/chris-whong.jpg')}
                 />
                 {' '}
               </div>
@@ -291,7 +292,7 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   alt="Andy Cochran"
-                  src="/img/andy-cochran.jpg"
+                  src={withPrefix('/img/andy-cochran.jpg')}
                 />
                 {' '}
               </div>
@@ -323,7 +324,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/julia-hogan.jpg"
+                  src={withPrefix('/img/julia-hogan.jpg')}
                   alt="Julia Hogan"
                 />
                 {' '}
@@ -352,7 +353,7 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   alt="Hannah Kates"
-                  src="/img/hannah-kates.jpg"
+                  src={withPrefix('/img/hannah-kates.jpg')}
                 />
                 {' '}
               </div>
@@ -387,7 +388,7 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   alt="Taylor McGinnis"
-                  src="/img/taylor-mcginnis.jpg"
+                  src={withPrefix('/img/taylor-mcginnis.jpg')}
                 />
                 {' '}
               </div>
@@ -415,7 +416,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/rahul.jpg"
+                  src={withPrefix('/img/rahul.jpg')}
                   alt="Rahul Alexander"
                 />
                 {' '}
@@ -441,7 +442,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/pichot.jpg"
+                  src={withPrefix('/img/pichot.jpg')}
                   alt="Jonathan Pichot"
                 />
                 {' '}
@@ -468,7 +469,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/kate-chanba.jpg"
+                  src={withPrefix('/img/kate-chanba.jpg')}
                   alt="Kate Chanba"
                 />
                 {' '}
@@ -495,7 +496,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/brandyn-friedly.jpg"
+                  src={withPrefix('/img/brandyn-friedly.jpg')}
                   alt="Brandyn Friedly"
                 />
                 {' '}
@@ -522,7 +523,7 @@ const AboutPage = () => (
                 <img
                   className="thumbnail avatar"
                   alt="Matt Gardner"
-                  src="/img/matt-gardner.jpg"
+                  src={withPrefix('/img/matt-gardner.jpg')}
                 />
                 {' '}
               </div>
@@ -556,7 +557,7 @@ const AboutPage = () => (
                 {' '}
                 <img
                   className="thumbnail avatar"
-                  src="/img/NnekaSobers_Headshotsq.jpg"
+                  src={withPrefix('/img/NnekaSobers_Headshotsq.jpg')}
                   alt="Nneka Sobers"
                 />
                 {' '}

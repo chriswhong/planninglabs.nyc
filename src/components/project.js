@@ -1,4 +1,5 @@
 import React from 'react';
+import { withPrefix } from 'gatsby';
 import FontAwesome from 'react-fontawesome';
 
 import { GitHubSVG } from './svg-icons';
@@ -8,8 +9,9 @@ const Project = (props) => {
   const { project } = props;
 
   if (project) {
+    const prefixIfLocal = u => (u && u.startsWith('/') ? withPrefix(u) : u);
     const url = project.thumbnail
-      ? project.thumbnail[0].thumbnails.large.url
+      ? prefixIfLocal(project.thumbnail[0].thumbnails.large.url)
       : null;
 
     let customer = null;
